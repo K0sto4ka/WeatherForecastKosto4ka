@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
             if(user_field?.text?.toString()?.trim().equals("")!!)
                 Toast.makeText(this, "Введите город", Toast.LENGTH_LONG).show()
             else{
-                val city: String = user_field?.text.toString()
+                val city: String = user_field?.text.toString().capitalize()
                 val key: String = "fc9328bfefe0818995833a91eecbee45"
                 val url: String = "https://api.openweathermap.org/data/2.5/weather?q=$city&appid=$key&units=metric&lang=ru"
 
