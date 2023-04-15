@@ -47,4 +47,9 @@ dependencies {
 
     // Android extensions
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
+    //Библиотека для вывода изображения picasso
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+
+
 }
